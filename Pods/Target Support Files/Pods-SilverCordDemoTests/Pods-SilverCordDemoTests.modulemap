@@ -1,0 +1,6 @@
+framework module Pods_SilverCordDemoTests {
+  umbrella header "Pods-SilverCordDemoTests-umbrella.h"
+
+  export *
+  module * { export * }
+}

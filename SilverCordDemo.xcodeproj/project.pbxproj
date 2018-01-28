@@ -1,0 +1,592 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3F178D1B3E5F2095CA57345E /* Pods_SilverCordDemoTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D7530AC8056A931F777DBD3E /* Pods_SilverCordDemoTests.framework */; };
+		4B038FF0201D2CEC00E9E8C7 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B038FEF201D2CEC00E9E8C7 /* AppDelegate.swift */; };
+		4B038FF2201D2CEC00E9E8C7 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B038FF1201D2CEC00E9E8C7 /* ViewController.swift */; };
+		4B038FF5201D2CEC00E9E8C7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4B038FF3201D2CEC00E9E8C7 /* Main.storyboard */; };
+		4B038FF7201D2CEC00E9E8C7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4B038FF6201D2CEC00E9E8C7 /* Assets.xcassets */; };
+		4B038FFA201D2CEC00E9E8C7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4B038FF8201D2CEC00E9E8C7 /* LaunchScreen.storyboard */; };
+		4B039005201D2CED00E9E8C7 /* SilverCordDemoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B039004201D2CED00E9E8C7 /* SilverCordDemoTests.swift */; };
+		4B039010201D44CA00E9E8C7 /* SocketProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B03900F201D44CA00E9E8C7 /* SocketProvider.swift */; };
+		4BD9B73B201D7022007322B4 /* BinderProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BD9B73A201D7022007322B4 /* BinderProtocol.swift */; };
+		9845741A863E2D9FE7C80AA8 /* Pods_SilverCordDemo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6AF0D63DBA30A3AF96DD8A37 /* Pods_SilverCordDemo.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		4B039001201D2CED00E9E8C7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4B038FE4201D2CEC00E9E8C7 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4B038FEB201D2CEC00E9E8C7;
+			remoteInfo = SilverCordDemo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		19319E3C6E75A580BA8B53A7 /* Pods-SilverCordDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SilverCordDemo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SilverCordDemo/Pods-SilverCordDemo.debug.xcconfig"; sourceTree = "<group>"; };
+		4B038FEC201D2CEC00E9E8C7 /* SilverCordDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SilverCordDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		4B038FEF201D2CEC00E9E8C7 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		4B038FF1201D2CEC00E9E8C7 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		4B038FF4201D2CEC00E9E8C7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		4B038FF6201D2CEC00E9E8C7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		4B038FF9201D2CEC00E9E8C7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		4B038FFB201D2CEC00E9E8C7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4B039000201D2CED00E9E8C7 /* SilverCordDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SilverCordDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		4B039004201D2CED00E9E8C7 /* SilverCordDemoTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SilverCordDemoTests.swift; sourceTree = "<group>"; };
+		4B039006201D2CED00E9E8C7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4B03900F201D44CA00E9E8C7 /* SocketProvider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SocketProvider.swift; sourceTree = "<group>"; };
+		4BD9B73A201D7022007322B4 /* BinderProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BinderProtocol.swift; sourceTree = "<group>"; };
+		5F061B0B7FF73948CC79F80D /* Pods-SilverCordDemoTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SilverCordDemoTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-SilverCordDemoTests/Pods-SilverCordDemoTests.release.xcconfig"; sourceTree = "<group>"; };
+		698FE370BCAFA3D00938883A /* Pods-SilverCordDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SilverCordDemo.release.xcconfig"; path = "Pods/Target Support Files/Pods-SilverCordDemo/Pods-SilverCordDemo.release.xcconfig"; sourceTree = "<group>"; };
+		6AF0D63DBA30A3AF96DD8A37 /* Pods_SilverCordDemo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SilverCordDemo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B95A657CB892998B6573510F /* Pods-SilverCordDemoTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SilverCordDemoTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SilverCordDemoTests/Pods-SilverCordDemoTests.debug.xcconfig"; sourceTree = "<group>"; };
+		D7530AC8056A931F777DBD3E /* Pods_SilverCordDemoTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SilverCordDemoTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4B038FE9201D2CEC00E9E8C7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9845741A863E2D9FE7C80AA8 /* Pods_SilverCordDemo.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4B038FFD201D2CED00E9E8C7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3F178D1B3E5F2095CA57345E /* Pods_SilverCordDemoTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1870B8642525EB965026C45A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				6AF0D63DBA30A3AF96DD8A37 /* Pods_SilverCordDemo.framework */,
+				D7530AC8056A931F777DBD3E /* Pods_SilverCordDemoTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		4B038FE3201D2CEC00E9E8C7 = {
+			isa = PBXGroup;
+			children = (
+				4B038FEE201D2CEC00E9E8C7 /* SilverCordDemo */,
+				4B039003201D2CED00E9E8C7 /* SilverCordDemoTests */,
+				4B038FED201D2CEC00E9E8C7 /* Products */,
+				7498E1E3018BEAAA9B2A3F12 /* Pods */,
+				1870B8642525EB965026C45A /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		4B038FED201D2CEC00E9E8C7 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4B038FEC201D2CEC00E9E8C7 /* SilverCordDemo.app */,
+				4B039000201D2CED00E9E8C7 /* SilverCordDemoTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4B038FEE201D2CEC00E9E8C7 /* SilverCordDemo */ = {
+			isa = PBXGroup;
+			children = (
+				4B038FEF201D2CEC00E9E8C7 /* AppDelegate.swift */,
+				4B038FF1201D2CEC00E9E8C7 /* ViewController.swift */,
+				4BD9B73A201D7022007322B4 /* BinderProtocol.swift */,
+				4B03900F201D44CA00E9E8C7 /* SocketProvider.swift */,
+				4B038FF3201D2CEC00E9E8C7 /* Main.storyboard */,
+				4B038FF6201D2CEC00E9E8C7 /* Assets.xcassets */,
+				4B038FF8201D2CEC00E9E8C7 /* LaunchScreen.storyboard */,
+				4B038FFB201D2CEC00E9E8C7 /* Info.plist */,
+			);
+			path = SilverCordDemo;
+			sourceTree = "<group>";
+		};
+		4B039003201D2CED00E9E8C7 /* SilverCordDemoTests */ = {
+			isa = PBXGroup;
+			children = (
+				4B039004201D2CED00E9E8C7 /* SilverCordDemoTests.swift */,
+				4B039006201D2CED00E9E8C7 /* Info.plist */,
+			);
+			path = SilverCordDemoTests;
+			sourceTree = "<group>";
+		};
+		7498E1E3018BEAAA9B2A3F12 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				19319E3C6E75A580BA8B53A7 /* Pods-SilverCordDemo.debug.xcconfig */,
+				698FE370BCAFA3D00938883A /* Pods-SilverCordDemo.release.xcconfig */,
+				B95A657CB892998B6573510F /* Pods-SilverCordDemoTests.debug.xcconfig */,
+				5F061B0B7FF73948CC79F80D /* Pods-SilverCordDemoTests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		4B038FEB201D2CEC00E9E8C7 /* SilverCordDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4B039009201D2CED00E9E8C7 /* Build configuration list for PBXNativeTarget "SilverCordDemo" */;
+			buildPhases = (
+				44183BEC10004DF7D16828AE /* [CP] Check Pods Manifest.lock */,
+				4B038FE8201D2CEC00E9E8C7 /* Sources */,
+				4B038FE9201D2CEC00E9E8C7 /* Frameworks */,
+				4B038FEA201D2CEC00E9E8C7 /* Resources */,
+				F2A16311928C1E95087A3B2B /* [CP] Embed Pods Frameworks */,
+				9E46F2235F18F8721230BFFE /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SilverCordDemo;
+			productName = SilverCordDemo;
+			productReference = 4B038FEC201D2CEC00E9E8C7 /* SilverCordDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		4B038FFF201D2CED00E9E8C7 /* SilverCordDemoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4B03900C201D2CED00E9E8C7 /* Build configuration list for PBXNativeTarget "SilverCordDemoTests" */;
+			buildPhases = (
+				ECF0504C58BA954F383B534B /* [CP] Check Pods Manifest.lock */,
+				4B038FFC201D2CED00E9E8C7 /* Sources */,
+				4B038FFD201D2CED00E9E8C7 /* Frameworks */,
+				4B038FFE201D2CED00E9E8C7 /* Resources */,
+				ED165302D1144C638C93B4B8 /* [CP] Embed Pods Frameworks */,
+				CEEA4FEC392C2819EA1134CA /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4B039002201D2CED00E9E8C7 /* PBXTargetDependency */,
+			);
+			name = SilverCordDemoTests;
+			productName = SilverCordDemoTests;
+			productReference = 4B039000201D2CED00E9E8C7 /* SilverCordDemoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		4B038FE4201D2CEC00E9E8C7 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0900;
+				LastUpgradeCheck = 0900;
+				ORGANIZATIONNAME = COBE;
+				TargetAttributes = {
+					4B038FEB201D2CEC00E9E8C7 = {
+						CreatedOnToolsVersion = 9.0.1;
+						ProvisioningStyle = Automatic;
+					};
+					4B038FFF201D2CED00E9E8C7 = {
+						CreatedOnToolsVersion = 9.0.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 4B038FEB201D2CEC00E9E8C7;
+					};
+				};
+			};
+			buildConfigurationList = 4B038FE7201D2CEC00E9E8C7 /* Build configuration list for PBXProject "SilverCordDemo" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 4B038FE3201D2CEC00E9E8C7;
+			productRefGroup = 4B038FED201D2CEC00E9E8C7 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4B038FEB201D2CEC00E9E8C7 /* SilverCordDemo */,
+				4B038FFF201D2CED00E9E8C7 /* SilverCordDemoTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		4B038FEA201D2CEC00E9E8C7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4B038FFA201D2CEC00E9E8C7 /* LaunchScreen.storyboard in Resources */,
+				4B038FF7201D2CEC00E9E8C7 /* Assets.xcassets in Resources */,
+				4B038FF5201D2CEC00E9E8C7 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4B038FFE201D2CED00E9E8C7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		44183BEC10004DF7D16828AE /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		9E46F2235F18F8721230BFFE /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SilverCordDemo/Pods-SilverCordDemo-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		CEEA4FEC392C2819EA1134CA /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SilverCordDemoTests/Pods-SilverCordDemoTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		ECF0504C58BA954F383B534B /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		ED165302D1144C638C93B4B8 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SilverCordDemoTests/Pods-SilverCordDemoTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F2A16311928C1E95087A3B2B /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SilverCordDemo/Pods-SilverCordDemo-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4B038FE8201D2CEC00E9E8C7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4B038FF2201D2CEC00E9E8C7 /* ViewController.swift in Sources */,
+				4BD9B73B201D7022007322B4 /* BinderProtocol.swift in Sources */,
+				4B038FF0201D2CEC00E9E8C7 /* AppDelegate.swift in Sources */,
+				4B039010201D44CA00E9E8C7 /* SocketProvider.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4B038FFC201D2CED00E9E8C7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4B039005201D2CED00E9E8C7 /* SilverCordDemoTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		4B039002201D2CED00E9E8C7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4B038FEB201D2CEC00E9E8C7 /* SilverCordDemo */;
+			targetProxy = 4B039001201D2CED00E9E8C7 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		4B038FF3201D2CEC00E9E8C7 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4B038FF4201D2CEC00E9E8C7 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		4B038FF8201D2CEC00E9E8C7 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4B038FF9201D2CEC00E9E8C7 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		4B039007201D2CED00E9E8C7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		4B039008201D2CED00E9E8C7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		4B03900A201D2CED00E9E8C7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 19319E3C6E75A580BA8B53A7 /* Pods-SilverCordDemo.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = VWRH7N68VU;
+				INFOPLIST_FILE = SilverCordDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = COBE.SilverCordDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		4B03900B201D2CED00E9E8C7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 698FE370BCAFA3D00938883A /* Pods-SilverCordDemo.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = VWRH7N68VU;
+				INFOPLIST_FILE = SilverCordDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = COBE.SilverCordDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		4B03900D201D2CED00E9E8C7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B95A657CB892998B6573510F /* Pods-SilverCordDemoTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = VWRH7N68VU;
+				INFOPLIST_FILE = SilverCordDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = COBE.SilverCordDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SilverCordDemo.app/SilverCordDemo";
+			};
+			name = Debug;
+		};
+		4B03900E201D2CED00E9E8C7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5F061B0B7FF73948CC79F80D /* Pods-SilverCordDemoTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = VWRH7N68VU;
+				INFOPLIST_FILE = SilverCordDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = COBE.SilverCordDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SilverCordDemo.app/SilverCordDemo";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4B038FE7201D2CEC00E9E8C7 /* Build configuration list for PBXProject "SilverCordDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4B039007201D2CED00E9E8C7 /* Debug */,
+				4B039008201D2CED00E9E8C7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4B039009201D2CED00E9E8C7 /* Build configuration list for PBXNativeTarget "SilverCordDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4B03900A201D2CED00E9E8C7 /* Debug */,
+				4B03900B201D2CED00E9E8C7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4B03900C201D2CED00E9E8C7 /* Build configuration list for PBXNativeTarget "SilverCordDemoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4B03900D201D2CED00E9E8C7 /* Debug */,
+				4B03900E201D2CED00E9E8C7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 4B038FE4201D2CEC00E9E8C7 /* Project object */;
+}
