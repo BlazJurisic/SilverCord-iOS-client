@@ -40,7 +40,7 @@ import SocketIO
 
 class SocketProvider {
     
-    static let manager = SocketManager(socketURL: URL(string: "wss://silvercord.herokuapp.com")!, config: [.log(false), .compress])
+    static let manager = SocketManager(socketURL: URL(string: "<ENTER_YOUR_URL_HERE>")!, config: [.log(false), .compress])
     
     static let defaultSocket = SocketProvider.manager.defaultSocket
     
@@ -64,5 +64,36 @@ class SocketProvider {
     }
     
     private init() {}
+}
+```
+
+## Example of binding to ViewController
+
+```swift
+import UIKit
+
+class ViewController: UIViewController, BinderProtocol {
+    @IBOutlet weak var dateLabel: UILabel!
+    @IBOutlet weak var nameLabel: UILabel!
+    @IBOutlet weak var timestampLabel: UILabel!
+    
+    override func viewWillAppear(_ animated: Bool) {
+        bind(id: "TIME", bindCallback: self.bindDataToView)
+    }
+    
+    //ovo je potrebno
+    typealias T = TimeVCProps
+    
+    func bindDataToView(data: TimeVCProps) {
+        dateLabel.text = data.time
+        nameLabel.text = data.name
+        timestampLabel.text = "\(data.timestamp)"
+    }
+}
+
+struct TimeVCProps: Decodable {
+    let name: String
+    let time: String
+    let timestamp: String
 }
 ```
