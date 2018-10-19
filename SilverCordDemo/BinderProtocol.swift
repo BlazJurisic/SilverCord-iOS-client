@@ -3,7 +3,7 @@
 //  SilverCordDemo
 //
 //  Created by Blaž Jurišić on 28/01/2018.
-//  Copyright © 2018 COBE. All rights reserved.
+//  Copyright © 2018 Blaž Jurišić. All rights reserved.
 //
 import SocketIO
 
