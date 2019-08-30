@@ -20,7 +20,7 @@ extension BinderProtocol {
                 guard let dict = try? JSONSerialization.data(withJSONObject: data[0] as! [String: Any]),
                     let props = try? decoder.decode(T.self, from: dict) else { return }
                 bindCallback(props)
-                //ack.with("tenks brate")
+                //ack.with("thanks!")
             }
         }
         guard SocketProvider.isConnected else {
